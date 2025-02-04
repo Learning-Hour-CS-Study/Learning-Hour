@@ -1,2 +1,1 @@
-# Learning-Hour
-🚀 한국경제신문 x 토스뱅크 풀스택 훈련 CS스터디
+![Group 103](https://github.com/user-attachments/assets/8893dbeb-2cb1-49e4-8ba2-33fccf86754d)
