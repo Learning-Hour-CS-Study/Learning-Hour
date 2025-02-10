@@ -391,3 +391,8 @@ AVL 트리와 Red-black 트리 모두 노드의 삽입과 삭제, 탐색에서 O
 그림 35. 퀴즈 문제
 
 위와 같은 형태의 Red-black 트리가 있고 1번 노드를 삭제하려고 할 때, 최종적으로 균형잡힌 Red-black 트리를 완성해오세요.
+
+출처
+http://xn--codelatte-9n69a.io/courses/java_data_structure/1QO410DZV2P3J17O
+https://www.codelatte.io/courses/java_data_structure/W2P3YI9KRPEIY4IL
+https://github.com/devSquad-study/2023-CS-Study/blob/main/Algorithm/algorithm_red_black_tree.md
