@@ -304,3 +304,14 @@ int main() {
 **(3) 일부 간선의 가중치가 음수이며, 음수 가중치를 가지는 간선이 사이클을 형성한다.**
 
 **(4) 모든 간선의 가중치가 음수이다.**
+## 출처
+
+**(책)Data Structures and Algorithms in C++**
+
+https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html
+
+이미지 출처
+
+https://sarah950716.tistory.com/12
+
+https://great-park.tistory.com/133
