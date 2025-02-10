@@ -15,7 +15,7 @@
 <br/>
 
 # 🔁 챕터 진행 순서
-### 1. 자료구조
-### 2. 운영체제
-### 3. 네트워크
-### 4. 데이터베이스
+### [1. 자료구조](https://github.com/Learning-Hour-CS-Study/Learning-Hour/tree/main/1_DataStructure)
+### [2. 운영체제](https://github.com/Learning-Hour-CS-Study/Learning-Hour/tree/main/2_OS)
+### [3. 네트워크](https://github.com/Learning-Hour-CS-Study/Learning-Hour/tree/main/3_Network)
+### [4. 데이터베이스](https://github.com/Learning-Hour-CS-Study/Learning-Hour/tree/main/4_Database)
