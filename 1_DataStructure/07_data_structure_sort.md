@@ -1,4 +1,19 @@
 ## Sort
+- [Sort](#sort)
+- [Bubble Sort](#bubble-sort)
+  - [🌱 예시](#-예시)
+  - [⏰ 시간 복잡도](#-시간-복잡도)
+- [Selection Sort](#selection-sort)
+  - [⏰ 시간 복잡도](#-시간-복잡도-1)
+  - [✅ 안정 정렬 vs 불안정 정렬](#-안정-정렬-vs-불안정-정렬)
+- [Insertion Sort](#insertion-sort)
+  - [⏰ 시간 복잡도](#-시간-복잡도-2)
+- [Quick Sort](#quick-sort)
+  - [⏰ 시간 복잡도](#-시간-복잡도-3)
+- [Merge Sort](#merge-sort)
+  - [⏰ 시간 복잡도](#-시간-복잡도-4)
+- [🚀 Quiz](#-quiz)
+- [✈️ 출처](#️-출처)
 
 > 대표적인 정렬 Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort를 다뤘다.
 
