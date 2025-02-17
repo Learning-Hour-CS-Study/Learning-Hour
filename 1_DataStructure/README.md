@@ -1,9 +1,9 @@
 # 자료구조
 
 ### 🧩 1주차
-- [1. 스택과 큐](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/01_stack_and_queue.md)
-- [2. 링크드 리스트](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/02_data_struture_linked_list.md)
-- [3. 트리](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/03_data_struture_tree.md)
+- [1. 스택과 큐](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/01_data_structure_stack_and_queue.md)
+- [2. 링크드 리스트](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/02_data_structure_linked_list.md)
+- [3. 트리](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/03_data_structure_tree.md)
 - [4. Red-black 트리](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/04_data_structure_red_black_tree.md)
 - [5. 그래프](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/1_DataStructure/05_data_structure_graph.md)
 
