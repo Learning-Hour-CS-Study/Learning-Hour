@@ -2,7 +2,7 @@
 
 프로세스 스케줄링이란 운영체제가 어떤 프로세스에게 CPU를 할당할지 결정하는 과정이다.
 
-![7375221515_486616_1bd590c46f4479d316f1ef4277442400.gif.thumb.jpg](/img/4_CPU_Scheduling_Algorithm/1.jpg)
+![7375221515_486616_1bd590c46f4479d316f1ef4277442400.gif.thumb.jpg](./img/4_CPU_Scheduling_Algorithm/1.jpg)
 
 우리가 컴퓨터를 할 때, 보통 하나의 프로세스만 실행시키지 않는다. 하지만 CPU는 컴퓨터의 핵심 자원이기 때문에 여러 프로세스가 동시에 CPU를 사용하려고 할 때, 어떤 프로세스에게 먼저 CPU를 할당할지를 효율적으로 결정하는 것이 중요하다.
 
@@ -32,7 +32,7 @@
 
 ### CPU Burst vs I/O burst
 
-![제목 없음.jpg](/img/4_CPU_Scheduling_Algorithm/2.jpg)
+![제목 없음.jpg](./img/4_CPU_Scheduling_Algorithm/2.jpg)
 
 프로세스가 작업을 수행하는 과정은 CPU 사용(계산)과 I/O 대기(or 사용)의 반복으로 이루어진다.
 
@@ -44,7 +44,7 @@
 
 ## 스케줄링의 단계 (Level)
 
-![2.png](/img/4_CPU_Scheduling_Algorithm/3.png)
+![2.png](./img/4_CPU_Scheduling_Algorithm/3.png)
 
 프로세스가 CPU를 할당받고 작업을 수행하는 과정 전반에 걸쳐, 스케줄링의 각 단계가 시스템 내에서 얼마나 자주 개입하고, 어떤 자원을 관리하는지에 따라 구분
 
@@ -56,7 +56,7 @@
 
 ### Long-term Scheduling
 
-![1.png](/img/4_CPU_Scheduling_Algorithm/4.png)
+![1.png](./img/4_CPU_Scheduling_Algorithm/4.png)
 
 - Job scheduling : 시스템에 제출 할 (Kernel에 등록 할) 작업(Job)을 결정, Job이 커널에 등록이 되면 프로세스가 되는데, 이때 대기하고 있는 Job들 중에 어느 것을 커널에 등록할지를 결정하는 것
 - 주요 역할 : 다중 프로그래밍 정도(degree) 조절하는 것(시스템 내에 동시에 실행하는 프로세스의 수를 조절) → 시스템 리소스를 효율적으로 관리하고, 시스템의 안정성과 성능 유지
@@ -65,7 +65,7 @@
 
 ### Mid-term Scheduling
 
-![2.png](/img/4_CPU_Scheduling_Algorithm/5.png)
+![2.png](./img/4_CPU_Scheduling_Algorithm/5.png)
 
 - Swapping : 메모리에 올라와 있는 프로세스 중에서 현재 실행되지 않는 프로세스를 일시적으로 메모리에서 내보낼지 (Swap out), 어떤 프로세스를 다시 메모리에 로드할지(Swap in) 결정하는 것
 - 주요 역할 : 시스템의 메모리 공간 확보. 다중 프로그래밍 정도 조절 등
@@ -75,7 +75,7 @@
 
 ### Short-term Scheduling
 
-![5.png](/img/4_CPU_Scheduling_Algorithm/6.png)
+![5.png](./img/4_CPU_Scheduling_Algorithm/6.png)
 
 - Process Scheduling : 프로세서를 할당할 프로세스를 결정. Ready 상태(메모리에 적재되어 있고, 실행될 준비가 완료된 상태)에 있는 프로세스를 running 상태로 만드는 것
 - 주요 역할 : 프로세스 선택(Ready Queue에 들어있는 Ready 상태의 프로세스들 중에서 CPU를 할당할 프로세스를 선택하는 것)
@@ -101,7 +101,7 @@
 
 ## 프로세스 스케줄링 알고리즘
 
-![6.png](/img/4_CPU_Scheduling_Algorithm/7.png)
+![6.png](./img/4_CPU_Scheduling_Algorithm/7.png)
 
 굉장히 다양한 스케줄링 알고리즘이 존재한다.
 
@@ -166,7 +166,7 @@ SPN, SRTN, HRRN 스케줄링 기법들은 효율성, 성능들을 높일 수는 
 
 ### MLQ (Multi-Level Queue)
 
-![7.png](/img/4_CPU_Scheduling_Algorithm/8.png)
+![7.png](./img/4_CPU_Scheduling_Algorithm/8.png)
 
 - 프로세스들을 여러 개의 queue로 분류하고, 각 queue마다 다른 스케줄링 기법을 적용하는 방식.
 - 시스템 내의 다양한 프로세스들의 특성을 고려하여 전체 시스템의 성능 향상을 목표로 함
