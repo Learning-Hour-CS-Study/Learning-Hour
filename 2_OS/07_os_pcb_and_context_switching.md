@@ -22,22 +22,25 @@
 > 4. PCB 정보를 가지고 스케줄링을 함
 > 5. 모든 프로세스들은 PCB를 기반으로 관리됨
 
-<div style="display: flex;">
-  <img src="./img/07_pcb_and_context_switching.md/pcb.png" alt="PCB 이미지" width="200"/>
-  <div>
-    <h3>PCB에 있는 정보들</h3>
-    <ol>
-    <li>프로세스 식별자(PID) - 프로세스를 식별하는 용도</li>
-    <li>프로세스 상태 - ready, wait, running 등의 상태를 가짐</li>
-    <li>프로그램 카운터 - CPU 내려오기 직전에 어디까지 실행되었는지를 말하며, 프로세스가 다음에 실행할 명령어의 시작 주소를 가리킴</li>
-    <li>CPU 레지스터</li>
-    <li>CPU 스케줄링 관련 정보 - 우선 순위, 최종 실행시각, CPU 점유 시간</li>
-    <li>메모리 관리 정보 - 메모리를 어떻게 관리할지</li>
-    <li>어카운팅 정보 - CPU를 얼마나 사용했는지</li>
-    <li>I/O 상태 정보 - 연결되어 있는 I/O 장치나 파일에 대한 정보</li>
-    </ol>
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./img/07_pcb_and_context_switching.md/pcb.png" alt="PCB 이미지" width="200"/></td>
+    <td>
+      <h3>PCB에 있는 정보들</h3>
+      <ol>
+        <li>프로세스 식별자(PID) - 프로세스를 식별하는 용도</li>
+        <li>프로세스 상태 - ready, wait, running 등의 상태를 가짐</li>
+        <li>프로그램 카운터 - CPU 내려오기 직전에 어디까지 실행되었는지를 말하며, 프로세스가 다음에 실행할 명령어의 시작 주소를 가리킴</li>
+        <li>CPU 레지스터</li>
+        <li>CPU 스케줄링 관련 정보 - 우선 순위, 최종 실행시각, CPU 점유 시간</li>
+        <li>메모리 관리 정보 - 메모리를 어떻게 관리할지</li>
+        <li>어카운팅 정보 - CPU를 얼마나 사용했는지</li>
+        <li>I/O 상태 정보 - 연결되어 있는 I/O 장치나 파일에 대한 정보</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
 
 <hr />
 
