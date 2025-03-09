@@ -1,4 +1,14 @@
 # PCB와 Context Switching
+- [PCB와 Context Switching](#pcb와-context-switching)
+  - [PCB(Process Control Block)](#pcbprocess-control-block)
+    - [CPU에서 내려온 프로세스가 다시 CPU 위에 올라갈 때 필요한 모든 정보를 담고 있는 구조체](#cpu에서-내려온-프로세스가-다시-cpu-위에-올라갈-때-필요한-모든-정보를-담고-있는-구조체)
+  - [Context Switching (=CPU Switching)](#context-switching-cpu-switching)
+    - [CPU가 이전의 프로세스 상태를 PCB에 저장하고, 또 다른 프로세스의 정보를 PCB로부터 읽어 레지스터에 올리는 과정](#cpu가-이전의-프로세스-상태를-pcb에-저장하고-또-다른-프로세스의-정보를-pcb로부터-읽어-레지스터에-올리는-과정)
+    - [🌱 탄생 배경](#-탄생-배경)
+    - [Context Switching의 단점](#context-switching의-단점)
+  - [퀴즈](#퀴즈)
+  - [✈️출처](#️출처)
+
 
 ## PCB(Process Control Block)
 
