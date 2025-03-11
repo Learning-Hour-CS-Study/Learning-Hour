@@ -9,3 +9,8 @@
 - [4. CPU 스케줄링 알고리즘](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/04_os_cpu_scheduling_algorithm.md)
 - [5. 인터럽트(Interrupt)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/05_os_interrupt.md)
 - [6. 시스템 콜(System Call)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/06_os_systemcall.md)
+
+### 🧩 5주차
+- [7. PCB와 Context Switching](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/07_os_pcb_and_context_switching.md)
+- [8. 주소 공간과 가상 메모리(Address Space, Virtual Memory)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/08_address_space_virtual_memory.md)
+- [9. 주소 변환(Address Translation)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/09_os_address_translation.md)
