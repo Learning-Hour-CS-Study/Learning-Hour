@@ -15,7 +15,9 @@
       - [2. OPT (Optimal Page Replacement)](#2-opt-optimal-page-replacement)
       - [3. LRU (Least Recently Used)](#3-lru-least-recently-used)
       - [4. Counting 기반 알고리즘](#4-counting-기반-알고리즘)
+  - [퀴즈](#퀴즈)
   - [✈️ 출처](#️-출처)
+
 
 ## 🔗 가상메모리
 
@@ -162,6 +164,12 @@
 - 특징:
   - 구현이 복잡
   - 최적 알고리즘에 근접하기 어려움
+
+---
+
+## 퀴즈
+
+- LRU 알고리즘의 단점을 설명해 주세요. 이를 해결할 수 있는 대안에 대해서도 설명해 주세요.
 
 ---
 
