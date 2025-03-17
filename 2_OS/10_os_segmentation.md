@@ -71,6 +71,11 @@
 - Intel x86 아키텍처에서 사용됨 (세그먼테이션을 사용하지만 페이지 단위로 메모리 관리)
 
 ---
+## 퀴즈
+Segmentation Adress Translation 과정을 설명하시오.
+
+
+---
 
 ## 출처
 
