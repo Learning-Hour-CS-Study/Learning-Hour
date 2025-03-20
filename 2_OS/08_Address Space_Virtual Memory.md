@@ -1,6 +1,6 @@
 ## 주소공간과 가상 메모리
 
-### 주소 공간<br>
+## 주소 공간<br>
 
 CPU와 실행 중인 프로그램은 저장된 공간이 시시각각 변하기에 현재 메모리 몇 번지에 무엇이 저장되어 있는지 다 알 수 없음<br>
 
@@ -20,6 +20,8 @@ CPU와 실행 중인 프로그램 입장에서 바라본 주소 <br>
 
 즉, 정보가 실제로 저장된 하드웨어상의 주소<br>
 
+<br>
+
 **Address Binding**
 
 프로그램 논리 주소를 실제 메모리의 물리 주소로 매핑(mapping)하는 작업
@@ -27,6 +29,8 @@ CPU와 실행 중인 프로그램 입장에서 바라본 주소 <br>
 Ex. int a; - 논리 주소
 
 15000번 주소에 있다 - 물리 주소
+
+<br>
 
 ### 프로그램이 실행되기까지의 과정
 
@@ -42,32 +46,36 @@ Loder가 Load module을 memory로 올려준다. <br>
 
 <br>
 
-### 매핑하는 시점에 따른 분류
+## 매핑하는 시점에 따른 분류
 
-**Compile time binding**<br>
+### Compile time binding<br>
 
 프로세스가 메모리에 적재(지정)될 위치를 컴파일러가 결정할 수 있는 경우
+
+### 특징
 
 - 위치가 변하지 않음<br>
 - 프로그램 전체가 메모리에 올라가야 함<br>
 
-**Load time binding** <br>
+### Load time binding <br>
 
 메모리 적재 위치를 컴파일 시점에서 모르면,
 
 대체 가능한 상대 주소를 생성하고 적재 시점(load time)에 시작 주소를 반영하여 사용자 코드 상의 주소를 재설정함<br>
 
-- 프로그램 전체가 메모리에 올라가야 함<br>
-
-<br>
+프로그램 전체가 메모리에 올라가야 함<br>
 
 ![alt text](<img/08_Address Space_Virtual Memory/2.png>)
 
-**Run-time binding**
+<br>
+
+### Run-time binding
 
 Address binding을 수행 시간까지 연기
 
 프로그램 실행 중에 CPU 메모리 관리 장치(MMU)에 의해 수행됨
+
+### 특징
 
 - 프로세스가 수행 도중 다른 메모리 위치로 이동할 수 있음
 - 동적 메모리 할당이나 가상 메모리에 사용됨
@@ -75,6 +83,8 @@ Address binding을 수행 시간까지 연기
   대부분의 OS가 사용
 
   <Br>
+
+### 알아두면 유용한 개념
 
 **MMU란?**
 
@@ -99,18 +109,20 @@ Address binding을 수행 시간까지 연기
 
 <br>
 
-### Memory Allocation
+## Memory Allocation
 
-**Continuous Memory Allocation (연속 할당)**
+### Continuous Memory Allocation (연속 할당)
 
-- Uni-programming
-- Multi-programming
+- **Uni-programming**
+- **Multi-programming**
 
-  - Fixed partition(FPM)
+  - **Fixed partition(FPM)**
 
-  - Variable partition(VPM)
+  - **Variable partition(VPM)**
 
-**Non-continuous Memory Allocation(비연속할당)**
+### Non-continuous Memory Allocation(비연속할당)
+
+<br>
 
 ## 연속 할당 방식
 
@@ -125,7 +137,9 @@ Address binding을 수행 시간까지 연기
 - 각 프로세스에게 할당되는 메모리 공간 크기
 - 메모리 분할 방법
 
-[**Uni-programming**]
+<br>
+
+### Uni-programming
 
 하나의 프로세스만 메모리 상에 존재
 
@@ -135,15 +149,19 @@ Kernel 밑에 존재함
 
 ![alt text](<img/08_Address Space_Virtual Memory/3.png>)
 
-단점
+<br>
+
+**단점**
 
 프로그램의 크기가 메모리 크기보다 클 수 있음
 
 커널을 보호해야 함
 
-해결법
+<br>
 
-- Overlay structure
+**해결책**
+
+- **Overlay structure**
 
 실행에 필요한 오버레이만 메모리에 로드하고, 나머지 오버레이는 디스크에 저장
 
@@ -151,9 +169,11 @@ Kernel 밑에 존재함
 
 사용자가 프로그램의 흐름 및 자료구조를 모두 알고 있어야 함
 
-- 경계 레지스터(boundary register) 사용
+- **경계 레지스터(boundary register) 사용**
 
-[**Fixed Partition Multiprogramming**]
+<br>
+
+### Fixed Partition Multiprogramming
 
 메모리 공간을 고정된 크기로 미리 분할하고
 
@@ -165,15 +185,18 @@ Multiprogramming degree=K
 
 ![alt text](<img/08_Address Space_Virtual Memory/4.png>)
 
-특징<br>
+**장점**<br>
 
 - 고정된 파티션 크기<br>
 - 메모리 관리가 비교적 간단함<br>
-- 내부 단편화(Fragmentation)<Br>
+
+  **단점** <br>
+
+  - 내부 단편화(Fragmentation)<Br>
 
   → 프로그램 크기가 파티션 크기보다 작을 경우 남는 공간이 발생하여 메모리 낭비가 일어날 수 있음
 
-  <br>
+   <br>
 
 ### 단편화 (Fragmentation)<Br>
 
@@ -183,9 +206,36 @@ Partition 크기 > process 크기
 
 **외부 단편화**<br>
 
-남은 메모리 크기 > Process 크기지만 연속된 공간이 아님
+남은 메모리 크기 > Process 크기지만 연속된 공간이 아님 <br>
 
-## Variable Partition Multiprogramming<br>
+프로세스들이 실행되고 종료되는 반복 과정에서 메모리 사이에 빈 공간이 생김 <Br>
+
+현재 빈 공간은 총 50MB일 때 비연속적으로 작은 메모리 공간으로 인한 프로세스를 할당하기 어려움
+
+즉, 외부 단편화는 프로세스를 할당하기 어려울 만큼 작은 메모리 공간들로 인해 메모리가 낭비되는 현상을 뜻함
+
+<br>
+
+**해결책**
+
+1. **메모리 압축 (Compaction)**
+
+ <br>
+
+![alt text](<img/08_Address Space_Virtual Memory/14.png>)
+
+여기저기 흩어져 있는 빈 공간들을 하나로 모으는 방식
+
+프로세스를 재배치시켜 흩어져 있는 작은 빈공간을 하나의 큰 빈 공간으로 만드는 방식
+
+1. **페이징**<br>
+   프로세스의 논리 주소 공간을 페이지(page)라는 일정 단위로 자르고,
+   메모리의 물리 주소 공간을 프레임(frame)이라는 페이지와 동일한 일정 단위로
+   자른 뒤 페이지를 프레임에 할당하는 가장 메모리 관리 기법
+
+<br>
+
+### Variable Partition Multiprogramming<br>
 
 초기 전체가 하나의 영역이지만 프로세스를 처리하는 과정에서 메모리 공간을 동적으로 할당하는 방식
 
@@ -275,6 +325,8 @@ none: 아무도 쓰지 않는 상태
 
 가상 주소: 가상 메모리의 특정 위치에 배정된 주소
 
+<br>
+
 ## 가상 메모리
 
 보조기억장치를 주기억장치처럼 주소 지정이 가능하게 만든 저장 공간 할당 체제
@@ -288,7 +340,9 @@ none: 아무도 쓰지 않는 상태
 현재 필요치 않은 메모리 공간은 실제 물리 메모리에 올리지 않으므로 물리 메모리를
 절약할 수 있음
 
-**특징**
+<br>
+
+### 특징
 
 물리 메모리보다 큰 프로그램도 실행할 수 있음
 
@@ -298,7 +352,9 @@ none: 아무도 쓰지 않는 상태
 
 → 운영체제의 커널 코드나 라이브러리를 동시에 사용 가능
 
-**장점**
+<br>
+
+### 장점
 
 메모리 효율성 증대
 
@@ -306,7 +362,7 @@ none: 아무도 쓰지 않는 상태
 
 다중 프로세스 지원
 
-**단점**
+### 단점
 
 페이지 폴트 발생 시 성능 저하
 
@@ -318,35 +374,7 @@ none: 아무도 쓰지 않는 상태
 
 이때 OS는 필요한 페이지를 보조 기억 장치에서 메모리로 불러오는 작업(Swapping)을 수행함
 
-### 외부 단편화
-
 <br>
-
-![alt text](<img/08_Address Space_Virtual Memory/13.png>)
-
-프로세스들이 실행되고 종료되는 반복 과정에서 메모리 사이에 빈 공간이 생김 <Br>
-현재 빈 공간은 총 50MB일 때 비연속적으로 작은 메모리 공간으로 인한 프로세스를 할당하기 어려움<Br>
-즉, 외부 단편화는 프로세스를 할당하기 어려울 만큼 작은 메모리 공간들로 인해 메모리가 낭비되는 현상을 뜻함
-
-<Br>
-
-**해결책**
-<br>
-
-1.**메모리 압축 (Compaction)**
-
-   <br>
-
-![alt text](<img/08_Address Space_Virtual Memory/14.png>)
-여기저기 흩어져 있는 빈 공간들을 하나로 모으는 방식
-
-프로세스를 재배치시켜 흩어져 있는 작은 빈공간을 하나의 큰 빈 공간으로 만드는 방식<br>
-
-**단점**<br>
-많은 오버헤드를 일으킴
-
-2.**페이징**<br>
-프로세스의 논리 주소 공간을 페이지(page)라는 일정 단위로 자르고, 메모리의 물리 주소 공간을 프레임(frame)이라는 페이지와 동일한 일정한 단위로 자른 뒤 페이지를 프레임에 할당하는 가상 메모리 관리 기법
 
 ## 퀴즈
 
