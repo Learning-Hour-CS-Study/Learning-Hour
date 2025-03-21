@@ -14,3 +14,8 @@
 - [7. PCB와 Context Switching](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/07_os_pcb_and_context_switching.md)
 - [8. 주소 공간과 가상 메모리(Address Space, Virtual Memory)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/08_address_space_virtual_memory.md)
 - [9. 주소 변환(Address Translation)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/09_os_address_translation.md)
+
+### 🧩 6주차
+- [10. 세그먼테이션(Segmentation)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/10_os_segmentation.md)
+- [11. 페이징(Paging)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/11_os_paging.md)
+- [12. 가상메모리와 요구 페이징, 페이지 교체](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/12_os_virtual_memory_and_demand_paging.md)
