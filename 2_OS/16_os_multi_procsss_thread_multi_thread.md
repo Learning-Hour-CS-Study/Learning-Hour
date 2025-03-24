@@ -126,18 +126,18 @@
 
    ![alt text](./img/16_multi_process_thread_multi_thread/4.png)
 
-- kernel 스레드와 user 스레드가 일대일로 mapping
-- 멀티프로세스의 장점을 가진다.
-- kernel 스레드의 생성은 비싼 연산이기에 user 스레드의 생성 갯수가 제한된다.
+   - kernel 스레드와 user 스레드가 일대일로 mapping
+   - 멀티프로세스의 장점을 가진다.
+   - kernel 스레드의 생성은 비싼 연산이기에 user 스레드의 생성 갯수가 제한된다.
 
 <br>
 
 3. many to many
 
-![alt text](./img/16_multi_process_thread_multi_thread/5.png)
+   ![alt text](./img/16_multi_process_thread_multi_thread/5.png)
 
-- kernel 스레드와 user 스레드가 다대다로 mapping
-- 앞의 두 모델의 장점들을 모두 가진다.
+   - kernel 스레드와 user 스레드가 다대다로 mapping
+   - 앞의 두 모델의 장점들을 모두 가진다.
 
 ---
 
