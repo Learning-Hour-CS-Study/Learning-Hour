@@ -19,3 +19,9 @@
 - [10. 세그먼테이션(Segmentation)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/10_os_segmentation.md)
 - [11. 페이징(Paging)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/11_os_paging.md)
 - [12. 가상메모리와 요구 페이징, 페이지 교체](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/12_os_virtual_memory_and_demand_paging.md)
+
+### 🧩 7주차
+- [13. TLB(Translation Lookaside Buffers)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/13_os_tlb.md)
+- [14. 동기화(Process Synchronization)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/14_os_synchronization.md)
+- [15. 교착상태(deadlock)](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/15_os_deadlock.md)
+- [16. 멀티프로세스, 스레드와 멀티스레딩](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/2_OS/16_os_multi_procsss_thread_multi_thread.md)
