@@ -111,3 +111,15 @@
 3. 사용자의 장치가 해당 IP 주소로 HTTP 요청 전송
 4. 웹 서버가 요청을 받아 응답 데이터 전송
 5. 사용자의 브라우저가 웹 페이지를 렌더링하여 표시
+
+<br>
+
+## 질문
+
+네트워크 토폴로지 종류에 대해 설명하시오.
+
+<br>
+
+## 출처
+
+https://velog.io/@archivvonjang/%EC%89%BD%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-01-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%A1%B0%EC%99%80-%EC%A2%85%EB%A5%98
