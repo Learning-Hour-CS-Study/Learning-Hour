@@ -1,5 +1,6 @@
 # 네트워크
 
+### 🧩 3주차
 - [네트워크의 기초](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/01_network_basic.md)
 - [대역폭](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/02_network_bandwidth.md)
 - [OSI 7계층](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/03_network_osi_7_layer.md)
