@@ -14,3 +14,10 @@
 - [HTTP 진화 과정](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/08_network_http.md)
 - [https](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/09_network_https.md)
 - [REST+RESTful API](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/10_network_rest_api_restful.md)
+
+
+### 🧩 10주차
+- [SOAP](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/11_network_soap.md)
+- [쿠키와 세션](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/12_network_cookie_and_session.md)
+- [프록시 서버](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/13_network_proxy_server.md)
+- [SOP와 CORS](https://github.com/Learning-Hour-CS-Study/Learning-Hour/blob/main/3_Network/14_sop_and_cors.md)
