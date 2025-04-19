@@ -267,3 +267,12 @@ strict schedule이란 스케줄 내에서 어떤 트랜잭션도 커밋되지 �
 즉, Strict schedule은 그림 19와 같이 트랜잭션 1이 먼저 실행되고 종료가 된 다음에, 트랜잭션 2가 시작되도록 만드는 것이다.
 
 Strict Schedule은 트랜잭션 이전 상태로 돌려놓기만 하면 되기 때문에 롤백할 때 recovery가 매우 쉽다.
+
+## 출처
+
+쉬운코드 : https://www.youtube.com/watch?v=DwRN24nWbEc
+
+## 퀴즈
+
+1. 여러 트랜잭션이 동시에 실행될 때, 어떤 조건을 만족하면 Serializability를 만족한다고 할 수 있는가?
+2. Recoverability란 무엇이며, 사용 목적이 무엇인가?
