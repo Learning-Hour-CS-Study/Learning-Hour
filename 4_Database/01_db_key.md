@@ -150,3 +150,13 @@ FOREIGN KEY (학생ID) REFERENCES Student(학번)
 | 복합키 | 두 개 이상 속성으로 구성된 후보키 | O      | O      | 불가      |
 
 ---
+
+## 질문
+
+**primary key에 대한 특성에 대해 설명해 주세요.**
+
+---
+
+## 출처
+
+https://github.com/devSquad-study/2023-CS-Study/blob/main/Interview/db_expected_question.md
