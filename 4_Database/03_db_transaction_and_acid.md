@@ -61,6 +61,10 @@ MySQL에서 계좌 이체를 구현하는 간단한 ACID 트랜잭션 예제<br>
 
 ![그림 1. Case 1](./img/03_db_transaction_and_acid/7.png)<br>
 
+### 퀴즈<BR>
+
+- **ACID란 무엇인가요?**
+
 ### 출처<BR>
 
 - https://jjibba.tistory.com/151<br>
